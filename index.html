@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Input Nilai Mata Kuliah Mahasiswa</title>
+</head>
+<body class="body">
+    
+    <div class="container">
+        <h2>Hitung Nilai Mata Kuliah Mahasiswa</h2>
+        <form id="gradeForm">
+            <label for="name" class="name" id="nameLabel">Nama:</label>
+            <input class="name" type="text" id="nameInput">
+            
+            <label for="mata-kuliah" class="mata-kuliah" id="mataKuliahLabel">Mata Kuliah:</label>
+            <input type="text" id="mataKuliahInput" name="mata-kuliah"> <br> <br>
+            
+            
+            <label for="SKS">SKS:</label>
+              <select id="SKS">
+                <option value="disabled selected">Pilih SKS</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+
+            </select>
+            
+            
+            <label for="grade"  >Grade:</label>
+            <select id="grade" >
+                <option value="disabled selected">Pilih Grade</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+            </select>
+
+            
+          
+            <br> 
+            <button type="submit" class="hitung" id="hitung">Hitung</button>
+        </form>
+        <p id="result"></p>
+
+        <h2>Daftar Nilai Mata Kuliah Mahasiswa</h2>
+        <table id="dataTable">
+            <tr>
+                <th><span class="nama">Nama</span></th>
+                <th><span class="mata-kuliah">Mata Kuliah</span></th>
+                <th><span class="sks">SKS</span></th>
+                <th><span class="grade">Grade</span></th>
+                <th><span class="nilai">Nilai</span></th>
+    
+            </tr>
+        </table>
+    </div>
+
+   
+    
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
+

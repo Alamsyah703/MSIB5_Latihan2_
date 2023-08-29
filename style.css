@@ -1,0 +1,135 @@
+.container {
+    max-width: 400px;
+            margin: 0 auto;
+            padding-left: 25px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 5);
+         
+}
+
+.name{
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.name input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#mata-kuliah {
+    width: 80%; 
+    margin-bottom: 10px;
+}
+
+#SKS {
+    width: 30%; 
+    margin-bottom: 10px;
+}
+
+#grade{
+    width: 30%; 
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select,
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white; 
+    font-weight: bold; 
+}
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+
+#dataTable th:nth-child(1),
+#dataTable td:nth-child(1) {
+    width: 150px; 
+}
+
+
+#dataTable th:nth-child(2),
+#dataTable td:nth-child(2) {
+    width: 150px; 
+}
+
+
+#dataTable th:nth-child(3),
+#dataTable td:nth-child(3) {
+    text-align: center;
+    width: px; 
+}
+
+
+#dataTable th:nth-child(4),
+#dataTable td:nth-child(4) {
+    text-align: center;
+    width: 45px; 
+}
+
+
+#dataTable th:nth-child(5),
+#dataTable td:nth-child(5) {
+    text-align: center;
+    width: 50px;
+}
